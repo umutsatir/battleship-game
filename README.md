@@ -1,2 +1,2 @@
 # battleship-game
-Battleship game written with pure JS. #TheOdinProject
+Battleship game written with pure JS.

@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.computer {
+    background: gray;
+}
+
+.ship {
+    background-color: green;
+}
+
+.hitShip {
+    background: darkred;
+}
+
+.hit {
+    background: #95d1f4;
+}
+
+.cell {
+    border: 1px solid #cbd5e1;
+    justify-content: center;
+    text-align: center;
+}
+
+.player-board,
+.computer-board {
+    display: grid;
+    grid-template-columns: repeat(10, 2.5rem);
+    grid-template-rows: repeat(10, 2.5rem);
+}
